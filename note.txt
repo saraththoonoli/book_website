@@ -1,0 +1,214 @@
+/* 3rd section */
+
+.third-secrtion-card-row {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.third-secrtion-card {
+   
+   padding: 10px;
+    box-sizing: border-box;
+    background-color: #3498db;
+    color: white;
+}
+
+.third-secrtion-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* fifth section */
+.fifth-section-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .fifth-section-card {
+    width: calc(26% - 20px); /* Adjust the width and margins as needed */
+    margin: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+  .fifth-section-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+/* seventh section */
+.seventh-section-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.seventh-section-card {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  max-width: calc(33.33% - 20px); /* Adjust the width and margins as needed */
+}
+
+.seventh-section-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+    /*sixth section  */
+     .sixth-section-card-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .sixth-section-card {
+      width: calc(25% - 10px); /* Adjust the width and margins as needed */
+      margin: 5px;
+      padding: 10px;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+
+    .sixth-section-card img {
+      max-width: 100%;
+      height: auto;
+    }
+/* seventh section */
+.seventh-card-section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .seventh-card {
+   
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+   
+  }
+
+  .seventh-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /* second section */
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style for the columns */
+.second-section-column {
+    width: 48%; /* Adjust the width as needed */
+    padding: 10px;
+}
+
+.second-section-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+<!-- second section -->
+
+    <div class="second-section">
+        <div class="second-section-column">
+            <img src="./Assets/bookbg.jpg" alt="Image 1">
+        </div>
+        <div class="second-section-column">
+            <p>This is some text.</p>
+        </div>
+    </div>
+
+
+    <!-- fourth-section -->
+
+
+
+    <!-- fifth section -->
+    <div  >
+        <div class="fifth-section-card-container">
+            <div class="fifth-section-card">
+              <img src="image1.jpg" alt="Card 1 Image">
+              <h3>Card 1</h3>
+              <p>This is the content of Card 1.</p>
+            </div>
+            <div class="fifth-section-card">
+              <img src="image2.jpg" alt="Card 2 Image">
+              <h3>Card 2</h3>
+              <p>This is the content of Card 2.</p>
+            </div>
+            <div class="sixth-section-card">
+              <img src="image3.jpg" alt="Card 3 Image">
+              <h3>Card 3</h3>
+              <p>This is the content of Card 3.</p>
+            </div>
+    </div>
+
+    <!-- sixth-section -->
+    <div class="sixth-section-card-container">
+        <div class="sixth-section-card">
+          <img src="image1.jpg" alt="Card 1 Image">
+          <h3>Card 1</h3>
+          <p>This is the content of Card 1.</p>
+        </div>
+        <div class="sixth-section-card">
+          <img src="image2.jpg" alt="Card 2 Image">
+          <h3>Card 2</h3>
+          <p>This is the content of Card 2.</p>
+        </div>
+        <div class="sixth-section-card">
+          <img src="image3.jpg" alt="Card 3 Image">
+          <h3>Card 3</h3>
+          <p>This is the content of Card 3.</p>
+        </div>
+        <div class="sixth-section-card">
+          <img src="image4.jpg" alt="Card 4 Image">
+          <h3>Card 4</h3>
+          <p>This is the content of Card 4.</p>
+        </div>
+
+
+    <!-- seventh-section -->
+    <div class="seventh-card-section">
+        <div class="seventh-card">
+          <img src="image1.jpg" alt="Card 1 Image">
+          <h3>Card 1</h3>
+          <p>This is the content of Card 1.</p>
+        </div>
+        <div class="seventh-card">
+          <img src="image2.jpg" alt="Card 2 Image">
+          <h3>Card 2</h3>
+          <p>This is the content of Card 2.</p>
+        </div>
+        <div class="seventh-card">
+          <img src="image3.jpg" alt="Card 3 Image">
+          <h3>Card 3</h3>
+          <p>This is the content of Card 3.</p>
+        </div>
+      </div>
+    
+
+      <!-- footer -->
+      
+    

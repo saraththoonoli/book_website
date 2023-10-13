@@ -1,0 +1,415 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    
+}
+/* nav bar */
+.navbar {
+    background-color: #ea2d2d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    display: none; 
+}
+
+/* first section */
+
+.Css-first-section{
+    background: url(./Assets/bookbg.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+    text-align: left;
+    color: white;
+   
+}
+
+
+
+/* Style for the content within the row */
+
+
+.Css-first-section-heading {
+    margin: 0;
+    font-size: 90px;
+    padding-left: 20px;
+    padding-top: 150px;
+}
+.Css-first-section-dis{
+  width: 65%;
+  padding-left: 20px;
+  padding-top: 20px;
+  
+}
+
+
+.first-section-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+.btn-1{
+  width: 120px;
+  height: 45px;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #3eff37;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn-2{
+  width: 120px;
+  height: 45px;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #3eff37;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+
+button:hover{
+  background-color: #c7da69;
+  color: red;
+}
+
+
+
+
+  /* third section */
+  .Css-third-secrtion-card-row{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .Css-third-secrtion-card{
+    text-align: center;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 40px;
+  }
+
+
+  /* fourth-section */
+  .Css-fourth-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+  .Css-fourth-row-column{
+    width: 48%; 
+    padding: 5px;
+
+  }
+  .Css-fourth-row-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* fifth-section */
+
+
+
+.row{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.row-col-1{
+  width: 50%;
+  background-color: rgb(127, 66, 66);
+  height: 500px;
+}
+.row-col-2{
+  width: 50%;
+  background-color: rgb(124, 21, 227);
+  height: 250px;
+
+}
+.row-col-1-row2-col-3{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(42, 211, 36);
+}
+.row-col-1-row2-row-4{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.row-col-1-row2-row-4-col-5{
+  background-color: black;
+  width: 50%;
+  height: 250px;
+}
+
+/* sixth section */
+
+.Css-sixth-secrtion-card-row{
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  text-align: center;
+}
+.Css-sixth-secrtion-card{
+  width: 30%;
+
+}
+/* star */
+.checked {
+  color: orange;
+}
+
+/* seventh section */
+
+.Css-seventh-secrtion-card-row{
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+}
+.Css-seventh-secrtion-card{
+  width: 24%;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+/* eight section */
+
+.Css-eight-secrtion-card-row{
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.Css-eight-secrtion-card{
+  
+  text-align: center;
+  align-items: center;
+
+}
+.Css-eight-secrtion-card p:hover{
+  background-color: rgb(215, 232, 215);
+}
+
+
+/* last section */
+
+.footer-section-row{
+  background-color: bisque;
+  width: 100%;
+  height: auto;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.footer-section-col{
+  padding-top: 30px;
+ 
+}
+  
+
+/* end footer */
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #ea2d2d;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* Media Query for Hamburger Menu */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide the navigation links */
+    }
+
+    .hamburger {
+        display: block; /* Show the hamburger icon */
+    }
+
+    .hamburger.active {
+        display: none; /* Hide the hamburger icon when active */
+    }
+
+    .nav-links.active {
+        display: flex; /* Show the navigation links when active */
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        background-color: #333;
+        width: 150px;
+    }
+}
+
+/* Hamburger Menu Animation */
+.hamburger.active::before {
+    content: "\2715"; /* Display 'X' when active */
+}
+
+
+/* first section */
+
+@media (max-width: 768px) {
+    .Css-first-section{
+       width: 100%;
+    }
+
+    .first-section-content {
+        padding:10px;
+}
+}
+/* second section */
+@media (max-width: 768px) {
+  .Css-third-secrtion-card-row {
+      flex-direction: column;
+     
+  }
+  .Css-third-secrtion-card {
+      margin: 20px 0;
+}
+}
+
+/* fourth section */
+@media (max-width: 768px) {
+  .Css-fourth-row {
+      flex-direction: column; 
+  }
+  .Css-fourth-row-column {
+      width: 100%; 
+}
+}
+
+
+
+
+/* sixth section */
+
+@media (max-width: 768px) {
+  .Css-sixth-secrtion-card-row {
+      flex-direction: column; 
+  }
+  .Css-sixth-secrtion-card {
+      width: 100%; 
+}
+}
+
+/* seventh section */
+
+@media (max-width: 768px) {
+  .Css-seventh-secrtion-card-row {
+      flex-direction: column; 
+  }
+  .Css-seventh-secrtion-card {
+      width: 100%; 
+}
+}
+/* eight section */
+@media (max-width: 768px) {
+  .Css-eight-secrtion-card-row {
+      flex-direction: column; 
+      padding: 10px;
+  }
+  .Css-eight-secrtion-card {
+      width: 100%; 
+      padding: 10px;
+}
+}
+/* last section */
+@media (max-width: 768px) {
+  .footer-section-row {
+      flex-direction: column; 
+      padding: 10px;
+  }
+  .footer-section-col {
+      width: 100%; 
+      padding: 10px;
+}
+}
+
+
+@media (max-width: 768px) {
+  .Css-third-secrtion-card-row {
+      flex-direction: column; 
+      padding: 10px;
+  }
+  .Css-third-secrtion-card{
+      width: 100%; 
+      padding: 10px;
+}
+}
+
+
+
+
+
